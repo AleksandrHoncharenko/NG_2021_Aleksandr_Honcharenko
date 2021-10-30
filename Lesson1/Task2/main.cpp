@@ -11,7 +11,7 @@ int main()
     cout << "      |== / \\ ==|" << endl;
     cout << "      |= / _ \\ =|" << endl;
     cout << "   _  |=| ( ) |=|" << endl;
-    cout << "  /=\\ |=|     |=| /=\\" << endl;
+    cout << "  /=\\ |=|     |=| /=\" << endl;
     cout << "  |=| |=| USA |=| |=|" << endl;
     cout << "  |=| |=|  _  |=| |=|" << endl;
     cout << "  |=| |=| | | |=| |=|" << endl;

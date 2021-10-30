@@ -16,7 +16,7 @@ int main()
     First[2] = rand () % 10;
     First[3] = rand () % 10;
     Second[0] = 1 + rand () % 9;
-    Second[2] = rand () % 10;
+    Second[1] = rand () % 10;
     Second[2] = rand () % 10;
     Second[3] = rand () % 10;
 
