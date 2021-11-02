@@ -5,26 +5,23 @@ using namespace std;
 
 int main()
 {
-    int Array[10], Number, Addition, Digital;
+    int Array[10], Number = 0, Addition = 0;
     cout << "Enter number in array:" << endl;
 
-    //Enter nomber of array
-    for (Digital = 0; Digital < 10; Digital++){
-        cin >> Number;
-        Array[Digital] = Number;
+    //Enter number of array
+    for (int i = 0; i < 10; i++){
+        cin >> Array[i];
     }
 
     //input addition and added it to array numbers
     cout << "Enter addition: ";
     cin >> Addition;
 
-    for (Digital = 0; Digital < 10; Digital++)
-        Array[Digital] += Addition;
 
     //output new array
     cout << "Ur new array:" << endl;
-    for ( Digital = 0; Digital < 10; Digital ++)
-        cout << Array[Digital] << endl;
+    for (int i = 0; i < 10; i++)
+        cout << Array[i] + Addition  << endl;
 
     return 0;
 }
