@@ -2,14 +2,16 @@
 using namespace std;
 int main()
 {
-   int num, sum, a;
+   //introducing and enter variables
+   int num = 0, sum = 0;
    cout << "Enthe number: ";
    cin >> num;
-   if (num < 0)
-       num = -num;
-   for(a = num; a >= 1; a /= 10){
-       sum += a % 10;
+
+   //calculation sum
+   for( ; num >= 1; num /= 10){
+       sum += num % 10;
    }
+   //output sum
    cout << "sum = " << sum;
 }
 
