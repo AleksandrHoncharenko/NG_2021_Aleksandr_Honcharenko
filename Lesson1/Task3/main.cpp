@@ -4,12 +4,19 @@ using namespace std;
 
 int main()
 {
-   int a, b, c;
-   a=50;
-   b=20;
-   c=a;
-   a=b;
-   b=c;
-   cout << a << endl << b;
-    return 0;
+    //introducing and filling variables
+    int a = 0, b = 0;
+    cout << "a = ";
+    cin >> a;
+    cout << "b = ";
+    cin >> b;
+
+    //change numbers
+    b = a + b;
+    a = b - a;
+    b = b - a;
+
+    //output variables
+    cout << "a = " << a << endl << "b = " << b;
+     return 0;
 }
