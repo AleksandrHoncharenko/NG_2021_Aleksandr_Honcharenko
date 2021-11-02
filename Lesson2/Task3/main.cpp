@@ -9,10 +9,6 @@ int main()
    cout << "Size:";
    cin >> Size;
 
-   //warning size <=0
-   if (Size <= 0)
-    cout << "Invalid size";
-   else
    //output columns
    for (High = 1; High <= Size; High++){
         //output lines
