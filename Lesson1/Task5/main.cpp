@@ -5,11 +5,8 @@ using namespace std;
 
 int main()
 {
-    int m = 0, t = 0;
-    cout << "Enter the weight of the ship: ";
-    cin >> m;
-    t=300*((round(m/3))-2);
-    cout << "You need " << t << " fuel units.";
-    cout << t;
+    int mass = 0;
+    cout << "Enter the weight of the ship: "; cin >> mass;
+    cout << "You need " << 300*((mass/3)-2) << " fuel units.";
     return 0;
 }
