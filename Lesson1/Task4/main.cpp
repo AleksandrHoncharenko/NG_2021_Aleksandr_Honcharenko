@@ -24,8 +24,7 @@ int main()
   if (Discriminant > 0){
     x1 = (- b + sqrt(Discriminant)) / (2 * a);
     x2 = (- b - sqrt(Discriminant)) / (2 * a);
-    cout << "x1 = " << x1 << endl;
-    cout << "x2 = " << x2;
+    cout << "x1 = " << x1 << endl << "x2 = " << x2;
   }
   //calculate and output x for D = 0
   else

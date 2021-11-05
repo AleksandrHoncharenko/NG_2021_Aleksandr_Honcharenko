@@ -11,7 +11,7 @@ int main()
     cout << "b = ";
     cin >> b;
 
-    //change numbers
+
     b = a + b;
     a = b - a;
     b = b - a;
